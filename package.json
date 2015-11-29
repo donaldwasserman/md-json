@@ -1,0 +1,23 @@
+{
+  "name": "md-to-json",
+  "version": "1.0.0",
+  "description": "Turn markdown files with YFM into a structured objects to return as json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "markdown",
+    "express",
+    "json"
+  ],
+  "author": "Donald Wasserman",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.0.2",
+    "marked": "^0.3.5",
+    "method-override": "^2.3.5",
+    "pluralize": "^1.2.1",
+    "yaml-front-matter": "^3.2.3"
+  }
+}

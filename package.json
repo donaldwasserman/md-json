@@ -1,5 +1,5 @@
 {
-  "name": "md-to-json",
+  "name": "md-json",
   "version": "1.0.0",
   "description": "Turn markdown files with YFM into a structured objects to return as json",
   "main": "index.js",
@@ -12,6 +12,7 @@
     "json"
   ],
   "author": "Donald Wasserman",
+  "reponsitory": "https://github.com/donaldwasserman/md-json.git",
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.0.2",

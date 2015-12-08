@@ -8,7 +8,7 @@ module.exports = function(dir, fileName) {
     var folder = dir.toString();
 
     if (typeof fileName === 'undefined') {
-      console.log(' Uh oh, hotdog');
+      
       fs.readdir(dir, function(err, files) {
         if (!err) {
           var posts = [];

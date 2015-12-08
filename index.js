@@ -30,7 +30,7 @@ module.exports = function(dir, fileName) {
       var single = pluralize(folder, 1);
       var data = {};
       data[single] = readFile(title, dir);
-      console.log(data);
+
       resolve(data);
     }
   });

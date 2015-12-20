@@ -11,8 +11,12 @@
     "express",
     "json"
   ],
+  "bugs": "https://github.com/donaldwasserman/md-json/issues",
   "author": "Donald Wasserman",
-  "reponsitory": "https://github.com/donaldwasserman/md-json.git",
+  "reponsitory": {
+      "type": "git",
+      "url": "https://github.com/donaldwasserman/md-json.git",
+    },
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.0.2",
